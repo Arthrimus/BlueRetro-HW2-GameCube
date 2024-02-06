@@ -29,5 +29,30 @@ Please refer to the [BlueRetro Documentation](https://github.com/darthcloud/Blue
 ## Building the PCB
 
 - **Current Trigger Version**
-  For the Current Trigger version use the [Current Trigger BOM](https://github.com/Arthrimus/BlueRetro-HW2-GameCube/blob/main/PCB/GC%20BlueRetro%20BOM%20(Current%20Trigger).xlsx). 
+  For the Current Trigger version use the [Current Trigger BOM](https://github.com/Arthrimus/BlueRetro-HW2-GameCube/blob/main/PCB/GC%20BlueRetro%20BOM%20(Current%20Trigger).xlsx). Do not close J1-J4
 - **Port Shield Version**
+  For the Port Shield version use the [Port Shield BOM.](https://github.com/Arthrimus/BlueRetro-HW2-GameCube/blob/main/PCB/GC%20BlueRetro%20BOM%20(Port%20Shield).xlsx)
+  Close J1-J4. Do not populate Q1,Q11,Q21,Q31,Q2,Q12,Q22,Q32,R1,R11,R21,R31.
+
+## Programming the ESP32
+
+A serial port is provided next to the ESP32. J5 needs to be closed or if the PCB is already installed on the GameCube Controller PCB Reset needs to be held down while connecting the board to your serial progreammer. J5 should be opened once programming is completed.
+
+## Installation
+
+- **Current Trigger Version**
+Cut 3.3v traces for each controller port as indicated in the image below.
+![](./doc/Current Trigger Cuts.jpg)
+Double check that the 3.3v pins for each controller are no longer connected to the 3.3v traces using a multimeter.
+
+- **Port Shield Version**
+Cut Shield Ground traces for each controller port as indicated in the image below.
+![](./doc/Port Shield Cuts.jpg)
+Double check that the shields for each controller are no longer connected to ground using a multimeter.
+
+- **Both Versions**
+Cut the reset button trace on the front side of the GameCube controller PCB in the location indicated below.
+![](./doc/Reset Trace Cut.jpg)
+
+Once all of the traces are cut simply lay the QSB over the pins on the back of the GameCube controller port PCB and solder all of the points on the QSB to the pins and pads that they line up with.
+
