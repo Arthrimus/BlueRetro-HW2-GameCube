@@ -28,6 +28,7 @@ This PCB is soldered to the GameCube controller port PCB directly, without the n
 Please refer to the [BlueRetro Documentation](https://github.com/darthcloud/BlueRetro/wiki) for usage instructions.
 
 ## Building the PCB
+PCBs should be manufactured at 1mm thickness.
 
 - **Current Trigger Version**
   For the Current Trigger version use the [Current Trigger BOM](https://github.com/Arthrimus/BlueRetro-HW2-GameCube/blob/main/PCB/GC%20BlueRetro%20BOM%20(Current%20Trigger).xlsx). Do not close J1-J4
