@@ -42,17 +42,17 @@ A serial port is provided next to the ESP32. J5 needs to be closed or if the PCB
 
 - **Current Trigger Version**
 Cut 3.3v traces for each controller port as indicated in the image below.
-![](./doc/Current Trigger Cuts.jpg)
+![](./doc/Current_Trigger_Cuts.jpg)
 Double check that the 3.3v pins for each controller are no longer connected to the 3.3v traces using a multimeter.
 
 - **Port Shield Version**
 Cut Shield Ground traces for each controller port as indicated in the image below.
-![](./doc/Port Shield Cuts.jpg)
+![](./doc/Port_Shield_Cuts.jpg)
 Double check that the shields for each controller are no longer connected to ground using a multimeter.
 
 - **Both Versions**
 Cut the reset button trace on the front side of the GameCube controller PCB in the location indicated below.
-![](./doc/Reset Trace Cut.jpg)
+![](./doc/Reset_Trace_Cut.jpg)
 
 Once all of the traces are cut simply lay the QSB over the pins on the back of the GameCube controller port PCB and solder all of the points on the QSB to the pins and pads that they line up with.
 
