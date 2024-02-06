@@ -2,6 +2,7 @@
 ![](./doc/BRHW2GC.jpg)
 
 ## Introdution
+**Warning, this PCB design has not been validated yet. I have prototypes being manufactured currentlu, but they are not here yet so this design is currently untested. Proceed at your own risk.**
 
 This is an internal QSB (Quick Solder Board) for the GameCube Cotroller Port PCB that adds BlueRetro with most of the HW2 Feature set. It is based on [Darthclouds BlueRetro](https://github.com/darthcloud/BlueRetro) and on [ManClouds Current Mirror](https://github.com/ManCloud/CurrentTrigger).
 
